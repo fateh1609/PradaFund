@@ -7,7 +7,7 @@ import { Wallet, Copy, ExternalLink } from 'lucide-react';
 const AddToWallet = () => {
   const { toast } = useToast();
   const tokenDetails = {
-    address: '0xeF0169B129E5f66FDfA5cC1631B18CE2Fc6E370B',
+    address: '0x8583686966178DeCC55aD477Abba5C462F85e082',
     symbol: 'PRADA',
     decimals: 18,
     image: 'https://i.imgur.com/Jk85aQ1.png', // Placeholder logo
