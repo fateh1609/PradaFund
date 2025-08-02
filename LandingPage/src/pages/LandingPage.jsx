@@ -13,6 +13,8 @@ import Roadmap                   from '../components/Roadmap';
 import FAQ                       from '../components/FAQ';
 import ClaimInfo                 from '../components/ClaimInfo';
 import Footer                    from '../components/Footer';
+import SpecialOfferPopup from '@/components/SpecialOfferPopup';
+
 
 export default function LandingPage() {
   return (
@@ -40,6 +42,8 @@ export default function LandingPage() {
       </main>
 
       <Footer />
+            <SpecialOfferPopup />
+
     </div>
   );
 }
