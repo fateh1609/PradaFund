@@ -118,7 +118,7 @@ const Header = () => {
                   <Wallet className="w-4 h-4 mr-2" />
                   {isConnected ? truncateAddress(walletAddress) : 'Connect Wallet'}
                 </Button>
-                <Link to="/signup">
+                <Link to="https://stake.pradatoken.fun/">
                   <Button
                     className="bg-gold hover:bg-gold/90 text-black font-semibold w-full"
                     onClick={() => setIsMobileMenuOpen(false)}
